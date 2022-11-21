@@ -3,6 +3,10 @@
 This is a collection of personal dotfiles for my Bspwm setup.
 Credit to the [Catppuccin team](https://github.com/catppuccin) for the Mocha theme, and credit to [Deathmonic](https://github.com/Deathemonic) for the Rofi theme.
 
+## Requirements
+
+- Iosevka Font (Nerd font)
+
 ## Configs
 
 - Bat `~/.config/bat/`
