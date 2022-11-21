@@ -1,0 +1,48 @@
+# Basic settings
+set hidden true
+set ignorecase true
+set previewer ctpv
+set cleaner ctpvclear
+&ctpv -s $id
+&ctpvquit $id
+
+# Custom commands
+cmd mkdir ${{
+  printf("Directory name: ")
+  read ans
+  mkdir $ans
+}}
+
+cmd decompress ${{
+  case "$f" in 
+    *.zip) unzip "$f" ;;
+    *.tar.gz) tar -xzvf "$f" ;;
+    *.tar.bz2) tar -xjvf "$f" ;;
+    *.tar) tar -xvf "$f" ;;
+    *.rar) unrar x "$f" ;;
+    *.7z) p7zip x "$f" ;;
+    *) echo "Unsupported format"
+  esac
+}}
+
+# Keymaps
+
+## File management
+map x cut
+map v paste
+map c copy
+map C clear
+map . set hidden!
+
+## Archives
+map ax decompress()
+
+# Goto
+map gd cd ~/Documents/
+map gD cd ~/Downloads/
+map gp cd ~/Pictures/
+map gc cd ~/.config/
+map gr cd ~/repos/
+map gv cd ~/Videos/
+map gm cd ~/Music/
+map gh cd ~/
