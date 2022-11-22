@@ -11,6 +11,7 @@ Credit to the [Catppuccin team](https://github.com/catppuccin) for the Mocha the
 
 - Bat `~/.config/bat/`
 - Bspwm `~/.config/bspwm/`
+- Dunst `~/.config/dunst/`
 - Kitty `~/.config/kitty/`
 - lf `~/.config/lf/`
 - Picom `~/.config/picom/`
@@ -24,4 +25,4 @@ Credit to the [Catppuccin team](https://github.com/catppuccin) for the Mocha the
 
 Clone this repository, and move the configs to their respective locations.
 
-`git clone https://github.com/Empyrean-Void/Dotfiles.git ~/dotfiles`
+`$ git clone https://github.com/Empyrean-Void/Dotfiles.git ~/dotfiles`
