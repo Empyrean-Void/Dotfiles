@@ -10,6 +10,7 @@ Credit to the [Catppuccin team](https://github.com/catppuccin) for the Mocha the
 ## Configs
 
 - Bat `~/.config/bat/`
+- Betterlockscreen `~/.config/betterlockscreenrc`
 - Bspwm `~/.config/bspwm/`
 - Dunst `~/.config/dunst/`
 - Kitty `~/.config/kitty/`
