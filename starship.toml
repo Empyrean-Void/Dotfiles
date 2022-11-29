@@ -1,0 +1,31 @@
+[python]
+python_binary = "python3"
+symbol = " "
+
+[java]
+symbol = " "
+
+[kotlin]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[git_status]
+conflicted = "ﲅ "
+ahead = "異"
+behind = " "
+diverged = "ﮊ "
+up_to_date = " "
+untracked = " "
+stashed = " "
+modified = " "
+staged = '[++\($count\)](green)'
+renamed = "凜"
+deleted = "﫧"

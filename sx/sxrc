@@ -1,0 +1,7 @@
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+sxhkd &
+numlockx &
+picom &
+nitrogen --restore &
+dunst &
+exec bspwm
